@@ -1,0 +1,31 @@
+#good {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: violet;
+    height: 100%;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.honor input {
+    height: 30px;
+    width: 280px;
+    border-radius: 13px;
+
+}
+label {
+    font-size: 19px;
+}
+p {
+    font-size: 18px;
+}
+.honor {
+    background-color: thistle;
+    padding: 15px;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tins</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+   <section class="royal">
+       <form name="regform" method="post" onsubmit="return validate ()">
+        
+        <h1>REGISTRATION FORM</h1>
+        <div>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" minlength="8" maxlength="12" required><br>
+        </div>
+        <div>
+            <label for="lname">last Name</label><br>
+            <input type="text" name="lname" minlength="8" maxlength="12" required><br>
+        </div>
+        <div>
+            <label for="mail">E-mail</label><br>
+            <input type="email" name="email" required><br>
+        </div>
+        <div>
+            <label for="uname">Username</label><br>
+            <input type="text" name="uname" minlength="6" maxlength="8" pattern="[A-Za-z]{4,5}[!@#$%^&*_+]{1}[0-9]{1,2}" required><br>
+        </div><br>
+        <div>
+            <input type="password" name="password" placeholder="password" required><br><br>
+            <input type="re-password" name="re-password" placeholder="Re-type password" required><br>
+        </div><br>
+        <div>
+            <button><span>Submit</span></button>
+        </div>
+        
+    </form>
+   </section> 
+</body>
+</html>
